@@ -63,7 +63,7 @@ const Landing = () => {
             </span>
           </label>
           <select className="bg-[#F9F9F9] border-[#BDBDBD] rounded border-2 p-[15px] mb-[15px]">
-            <option disabled={true} selected={true}>
+            <option disabled={true} defaultValue="">
               Please Select
             </option>
             <option>Marketing</option>
@@ -77,7 +77,7 @@ const Landing = () => {
             </span>
           </label>
           <select className="bg-[#F9F9F9] border-[#BDBDBD] rounded border-2 p-[15px] mb-[15px]">
-            <option disabled={true} selected={true}>
+            <option disabled={true} defaultValue="">
               4:00 Available
             </option>
             <option>8:00 Available</option>
