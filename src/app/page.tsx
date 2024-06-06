@@ -3,6 +3,7 @@ import Image from "next/image";
 import NavBar from "./components/NavBar/NavBar";
 import DropdownMenu from "./components/DropdownMenu/DropdownMenu";
 import { useState } from "react";
+import Landing from "./components/Landing/Landing";
 
 export default function Home() {
 
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-[220px]">
       <NavBar isOpen={isOpen} setIsOpen={setIsOpen}/>
       <DropdownMenu isOpen={isOpen}/>
+      <Landing />
     </main>
   );
 }

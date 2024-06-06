@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.landing_container {
+    background-image: url('../../public/bg-landing-mobile.svg');
+}
+
+select option { color: black; }
+select option:first-child{
+  color: #BDBDBD;
+}
+
+@media screen and (min-width: 1020px) {
+    .landing_container {
+        background-image: url('../../public/bg-landing-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+}
