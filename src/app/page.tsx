@@ -5,6 +5,7 @@ import DropdownMenu from "./components/DropdownMenu/DropdownMenu";
 import { useState } from "react";
 import Landing from "./components/Landing/Landing";
 import PracticeAdvice from "./components/PracticeAdvice/PracticeAdvice";
+import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
       <DropdownMenu isOpen={isOpen}/>
       <Landing />
       <PracticeAdvice/>
+      <WhoWeAre />
     </main>
   );
 }
