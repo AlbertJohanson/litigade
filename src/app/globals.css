@@ -11,10 +11,28 @@ select option:first-child{
   color: #BDBDBD;
 }
 
+.video_container {
+    width: 306px;
+    min-width: 306px;
+    height: 442px;
+    min-height: 442px;
+    margin: 0 auto;
+    background-image: url('../../public/video_cover_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 1020px) {
     .landing_container {
         background-image: url('../../public/bg-landing-desktop.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
     }  
+
+    .video_container {
+        width: 877px;
+        min-width: 877px;
+        height: 500px;
+        min-height: 500px;
+        margin: 0 auto;
+        background-image: url('../../public/video_cover_desktop.png');
+    }
 }
